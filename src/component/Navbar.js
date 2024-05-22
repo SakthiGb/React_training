@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Navigationbar = () => {
   return (
     <>
-      <Navbar className="bg-body" bg="dark" data-bs-theme="dark">
+      <Navbar className="bg-body" bg="dark" data-bs-theme="dark" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
             <img
