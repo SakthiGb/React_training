@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import withAuthentication from "./component/withAuthentication";
 import UserProfile from "./component/UserProfile";
 import "./App.css";
+import TodoApp from "./component/TodoApp";
 
 const AuthenticatedUserProfile = withAuthentication(UserProfile);
 
@@ -41,6 +42,7 @@ const App = () => {
       </Routes>
 
       <AuthenticatedUserProfile isAuthenticated={isAuthenticated} user={user} />
+      <TodoApp />
     </div>
   );
 };

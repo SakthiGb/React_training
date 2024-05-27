@@ -1,0 +1,48 @@
+/* TodoApp.css */
+
+.todo-app {
+    text-align: center;
+    padding: 20px;
+}
+
+.todo-input {
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.todo-input button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo-item span {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.todo-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
